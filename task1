@@ -1,1 +1,4 @@
-git repo
+#To clean the dataset
+import pandas as pd
+df = pd.read_csv("/content/sample_data/insurance.csv")
+print(df.info())
